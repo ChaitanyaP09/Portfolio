@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Typewriter } from 'react-simple-typewriter';
+import image from '../assets/pht.jpeg'
 
 const Hero = () => {
   return (
@@ -67,7 +68,7 @@ const Hero = () => {
             className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-500/50 shadow-[0_0_50px_rgba(59,130,246,0.5)]"
           >
             <img 
-              src="https://via.placeholder.com/400" 
+              src={image} 
               alt="Chaitanya Puranik" 
               className="w-full h-full object-cover"
             />

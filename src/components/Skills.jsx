@@ -2,9 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const skills = [
-  { category: "Core & Algorithms", items: ["C++ (DSA)", "Competitive Programming", "Python"] },
+  { category: "Core & Algorithms", items: ["C/C++ (DSA)", "Java(OOP)", "Python"] },
   { category: "Frontend Development", items: ["React.js", "Tailwind CSS", "JavaScript"] },
-  { category: "Advanced Tech", items: ["Machine Learning", "Deep Learning", "AWS Cloud"] },
+  { category: "Other", items: ["Machine Learning", "MySQL", "REST API"] },
   { category: "Tools", items: ["Git & GitHub", "VS Code", "Linux"] }
 ];
 
