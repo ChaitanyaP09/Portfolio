@@ -26,7 +26,7 @@ const NavMob = () => {
       <div className="px-4 py-4 flex justify-between items-center">
         {/* Mobile Logo */}
         <h1 className="text-xl font-bold text-white">
-          Chaitanya<span className="text-blue-500">.</span>
+          Chaitanya<span className="text-blue-500">Puranik</span>
         </h1>
 
         {/* Hamburger Icon */}
