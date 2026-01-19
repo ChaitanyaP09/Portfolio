@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Typewriter } from 'react-simple-typewriter';
-import image from '../assets/pht.jpeg'
+import image from '../assets/p23.jpeg'
 
 const Hero = () => {
   return (
