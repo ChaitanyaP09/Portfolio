@@ -32,7 +32,7 @@ const Skills = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl font-extrabold text-white text-gray-900 sm:text-4xl">Technical Skills</h2>
+          <h2 className="text-3xl font-extrabold text-white  sm:text-4xl">Technical Skills</h2>
           <p className="mt-4 max-w-2xl text-xl text-gray-500 mx-auto">
             My tech stack for building scalable applications.
           </p>
