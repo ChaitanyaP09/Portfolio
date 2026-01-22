@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Typewriter } from 'react-simple-typewriter';
+import image from '../assets/port1.jpeg'
 
 const Hero = () => {
   return (
@@ -37,8 +38,9 @@ const Hero = () => {
             <motion.a 
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="https://drive.google.com/file/d/1lh6-eEyU7KAdHK6T7BDHAaEXLWn4H4HX/view?usp=sharing" 
+              href="/Actual_Resume_one.pdf" 
               target="_blank" 
+              rel="noopener noreferrer"
               className="px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg shadow-blue-500/30 shadow-lg"
             >
               View Resume
@@ -67,7 +69,7 @@ const Hero = () => {
             className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-500/50 shadow-[0_0_50px_rgba(59,130,246,0.5)]"
           >
             <img 
-              src="https://via.placeholder.com/400" 
+              src={image} 
               alt="Chaitanya Puranik" 
               className="w-full h-full object-cover"
             />
